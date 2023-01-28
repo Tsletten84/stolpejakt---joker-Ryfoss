@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+#header {
+  margin-top: 50px;
+  width: 160px;
+  height: 160px;
+  background-size:contain;
+  background-repeat: no-repeat;
+      /**  LOGO INN HER!   **/
+      /**  LOGO INN HER!   **/
+  background-image: url(joker.jpg);
+      /**  LOGO INN HER!   **/
+      /**  LOGO INN HER!   **/
+}
+
+body {
+    background:#2d3e50;
+    color: white;
+    font-family: roboto;
+}
+
+button {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+    background-color: #2d3e50;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+button:hover {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #2d3e50;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;    
+}
+
+
+.location {
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+.infobox{
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+iframe {
+    background:#2d3e50;
+}
+
+
+a:link {
+    color:white;
+    font-size: 15px;
+}
+
+a:visited {
+    color:white;
+}
+
